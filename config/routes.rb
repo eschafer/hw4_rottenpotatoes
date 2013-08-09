@@ -14,6 +14,8 @@ Rottenpotatoes::Application.routes.draw do
   #   resources :products
   resources :movies
 
+  match '/find_similar', to: 'movies#find_similar', via: [:get, :post]
+
   # Sample resource route with options:
   #   resources :products do
   #     member do
