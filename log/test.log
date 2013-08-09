@@ -1286,3 +1286,53 @@ Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
   Processing by MoviesController#find_similar as HTML
   Parameters: {"director"=>"Alfred Hitchcock"}
 Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Rendered movies/find_similar.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Rendered movies/find_similar.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Rendered movies/find_similar.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Rendered movies/find_similar.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 59ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Rendered movies/find_similar.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  Processing by MoviesController#find_similar as HTML
+  Parameters: {"director"=>"Alfred Hitchcock"}
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)

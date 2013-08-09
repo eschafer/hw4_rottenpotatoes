@@ -3,7 +3,7 @@ require 'spec_helper'
 describe MoviesController do
   describe "finding similar movies" do
     before :each do
-      fake_results = "fake results"
+      @fake_results = "fake results"
     end
 
     it "should call the model method that performs the search" do
