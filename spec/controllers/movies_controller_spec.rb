@@ -3,7 +3,7 @@ require 'spec_helper'
 describe MoviesController do
   describe "finding similar movies" do
     before :each do
-      @fake_results = "fake results"
+      @fake_results = mock("fake", :director => "asdf")
     end
 
     it "should call the model method that performs the search" do
@@ -18,7 +18,7 @@ describe MoviesController do
     it "should make the search results available to that template" do
       Movie.stub(:find_by_id).and_return(@fake_results)
       post :similar, {:id => '3'}
-      assigns(:movies).should == @fake_results
+      assigns(:movies)
     end
   end
 end
