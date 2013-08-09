@@ -29,7 +29,7 @@ module NavigationHelpers
       movie_path(Movie.find_by_title($1))
 
     when /^the Similar Movies page for "([^"]+)"$/
-      find_similar_movie_path(Movie.find_by_title($1))
+      similar_movie_path(Movie.find_by_title($1))
 
     else
       begin

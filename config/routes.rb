@@ -14,8 +14,8 @@ Rottenpotatoes::Application.routes.draw do
   #   resources :products
   resources :movies do
     member do
-      get 'find_similar'
-      post 'find_similar'
+      get 'similar'
+      post 'similar'
     end
   end
 

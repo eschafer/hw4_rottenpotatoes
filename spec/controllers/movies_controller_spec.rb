@@ -8,16 +8,16 @@ describe MoviesController do
 
     it "should call the model method that performs the search" do
       Movie.should_receive(:find_by_id).with('3').and_return(@fake_results)
-      post :find_similar, {:id => '3'}
+      post :similar, {:id => '3'}
     end
     it "should select the Similar Movies template for rendering" do
       Movie.should_receive(:find_by_id).with('3').and_return(@fake_results)
-      post :find_similar, {:id => '3'}
-      response.should render_template('find_similar')
+      post :similar, {:id => '3'}
+      response.should render_template('similar')
     end
     it "should make the search results available to that template" do
       Movie.stub(:find_by_id).and_return(@fake_results)
-      post :find_similar, {:id => '3'}
+      post :similar, {:id => '3'}
       assigns(:movies).should == @fake_results
     end
   end
