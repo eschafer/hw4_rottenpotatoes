@@ -1,0 +1,6 @@
+%h2 Movies similar to #{@movie.title}
+
+%ul
+  - @movies.each do |movie|
+    %li
+      = movie.title
